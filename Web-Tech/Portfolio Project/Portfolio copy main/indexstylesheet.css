@@ -1,0 +1,193 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+}
+
+html {
+    height: 100%;
+}
+
+header {
+    padding: 0.3125em;
+}
+
+nav {
+    overflow: hidden;
+    border-style: solid;
+    border: solid rgb(230, 230, 230);
+    border-width: 0.05em;
+    background-color: rgba(33, 33, 33, 0.863);
+}
+
+nav a{
+    float: left;
+    display: block;
+    color: rgb(236, 236, 236);
+    font-weight: bolder;
+    text-align: center;
+    padding: 0.875em 1.25em;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: rgb(221, 221, 221);
+    color: black;
+}
+
+body {
+    height: 100%;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 119.05em;
+}
+
+#home, footer, header {
+    background-image: url(palmtree.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body{
+    background-image: url(palmtree.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#main{
+    background-color: rgba(255, 255, 255, 0.904);
+}
+
+section {
+    padding-top: 1.25em;
+}
+
+footer {
+    text-shadow: -0.0625em 0 black, 0 0.0625em black, 0.0625em 0 black, 0 -0.0625em black;
+    color: rgb(251, 254, 255);
+    padding: 1.25em;
+    text-align: center;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+
+#footer ul li a:hover {
+    opacity: 0.5;
+}
+footer ul li {
+    display: inline;
+    list-style-type: none;
+}
+
+p{
+    width: 90%;
+}
+
+footer ul{
+    background-color: rgba(34, 34, 34, 0.863);
+    margin-left: 25em;
+    margin-right: 25em;
+    padding: 0.5em;
+    border: solid rgb(230, 230, 230);
+    border-width: 0.05em;
+}
+
+#home {
+    padding: 15em;
+}
+
+#home aside a{
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.75em 2.25em;
+    margin: 0.5em 0;
+    width: 100%;
+    border: 0.0625em solid rgb(34, 34, 34);
+    text-decoration: none;
+}
+
+#home aside a:hover{
+    opacity: 0.8;
+}
+
+#home aside {
+    margin-left: 65em;
+    margin-top: -6em;
+}
+
+
+hgroup {
+    margin-left: 21em;
+}
+
+hgroup #top {
+    margin-left: 3em;
+    margin-bottom: 0.1em;
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 1.5em;
+    color: #222222;
+    text-transform: uppercase;
+}
+
+hgroup h1 {
+    color: #222222;
+    margin-top: -0.05em;
+    margin-left: -1em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: bold;
+    font-size: 3em;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+}
+
+#about img {
+    background-color: azure;
+    margin-left: 20em;
+    margin-top: 10em;
+    border-color: rgb(0, 0, 0);
+    border-width: 0.2em;
+    border-style: solid;
+}
+
+
+section ul li, #portfolio p, footer, #about p{
+    font-weight: 300;
+    font-size: x-large;
+    letter-spacing: 0.05em;
+    font-family: Georgia, serif;
+}
+
+#about img{
+    position: absolute;
+    margin-top: 1em;
+    margin-left: 40em ;
+}
+
+#about {
+    position: relative;
+}
+
+#skills, #experience, #education, #portfolio, #about {
+    max-width: 44em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+}
+
+section h2{
+    font-weight: bolder;
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+#logolist{
+    margin-left: 30em;
+    margin-top: -19em;
+}

@@ -1,0 +1,80 @@
+form {
+    border: 3px solid rgb(0, 0, 0);
+    border-width: 0.15em;
+    background-color: rgba(29, 25, 25, 0.863);
+    padding: 4em;
+    padding-left: 8em;
+    padding-right: 8em;
+    width: 15%;
+    margin-left: 46.5em;
+    margin-top: 2em;
+}
+
+body{
+    background-color: black;
+    background-image: url(photo-placeholder-8.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 0.75em 1.25em;
+    margin: 0.5em 0;
+    display: inline-block;
+    border: 0.0625em solid rgb(34, 34, 34);
+}
+
+input[name=post] {
+    padding-bottom: 5em;
+}
+
+h2{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.75em 5em;
+    margin: 0.5em 0;
+    width: 100%;
+    border: 0.0625em solid rgb(34, 34, 34);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.55em 1.25em;
+    margin: 0.5em 0;
+    width: 100%;
+    border: 0.0625em solid rgb(34, 34, 34);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: small;
+}
+
+#error1, #error2{
+    color: white;
+}
+
+ul li{
+    display: inline-flex;
+}
+
+input:invalid{
+    border-color: #900;
+    background-color: #FDD;
+}
