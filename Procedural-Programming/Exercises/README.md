@@ -1,0 +1,1 @@
+- Here are some short exercises I did for procedural programming.
