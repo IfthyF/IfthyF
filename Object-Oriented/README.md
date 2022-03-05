@@ -1,0 +1,3 @@
+- Here is my miniproject I did for Object Oriented Programming.
+- It is a failed attempt on making it because I didn't implement polymorphism correctly.
+- It is an adventure combat game.
