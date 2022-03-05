@@ -1,1 +1,1 @@
-- Here are some of my procedural programming exercises and project 😄
+- Here are some of my procedural programming exercises and project. 😄
